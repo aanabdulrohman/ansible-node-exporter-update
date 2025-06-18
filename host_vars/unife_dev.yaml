@@ -1,3 +1,0 @@
-# ansible_become_pass: "{{ become_pass_unifedev }}"
-# ansible_become_pass: "{{ become_pass_qrisweb2 }}"
-ansible_become_pass: "{{ become_pass_unifeprod }}"
