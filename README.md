@@ -48,6 +48,7 @@ Automasi update node exporter ke versi terbaru menggunakan ansible
      Hilangkan `ask-vault-pass` jika tidak di encrypt
 
 6. **FYI**
+   
      file .tar.gz dan hasil extarct nya akan otomatis di hapus jika update berhasil
 
 
