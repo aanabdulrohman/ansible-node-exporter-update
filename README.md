@@ -34,20 +34,25 @@ Automasi update node exporter ke versi terbaru menggunakan ansible
      ```
      jika ingin melihat ulang atau mengganti password gunakan view dan decrypt
 
-3. **update-node-exporter.yaml**
+3. **host.yaml**
+     ```
+     ansible_become_pass: "{{ become_pass_server1 }}"
+     ```
+
+5. **update-node-exporter.yaml**
      ```
      node_exporter_version: "sesuaikan versi yang di download. exp: 1.9.1"
      ```
 
      Cek versi terbaru [disini](https://github.com/prometheus/node_exporter/releases)
    
-5. **Run Playbook**
+6. **Run Playbook**
      ```
      ansible-playbook -i inventory.ini playbook/update-node-exporter.yaml --ask-vault-pass
      ```
      Hilangkan `ask-vault-pass` jika tidak di encrypt
 
-6. **FYI**
+7. **FYI**
    
      file .tar.gz dan hasil extarct nya akan otomatis di hapus jika update berhasil
 
