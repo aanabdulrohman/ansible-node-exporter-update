@@ -36,7 +36,7 @@ Automasi update node exporter ke versi terbaru menggunakan ansible
 
 3. **update-node-exporter.yaml**
      ```
-     node_exporter_version: "sesuaikan versi yang di download exp: 1.9.1"
+     node_exporter_version: "sesuaikan versi yang di download. exp: 1.9.1"
      ```
 
      Cek versi terbaru [disini](https://github.com/prometheus/node_exporter/releases)
@@ -51,7 +51,7 @@ Automasi update node exporter ke versi terbaru menggunakan ansible
      file .tar.gz dan hasil extarct nya akan otomatis di hapus jika update berhasil
 
 
-MIT © 2025 — [aanabdulrohman]
+© 2025 — aanabdulrohman
 
 ---
 Contributions are welcome!
